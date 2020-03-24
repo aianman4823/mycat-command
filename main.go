@@ -16,7 +16,7 @@ const (
 )
 
 func readFile(fn string, num int, n *string) error {
-	path := filepath.Join("/Users/harada_akito/Documents/golang/mycat", fn)
+	path := filepath.Join("", fn)
 	// fmt.Println(path)
 	f, err := os.Open(path)
 	if err != nil {
